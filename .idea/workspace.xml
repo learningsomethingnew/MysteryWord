@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad839d59-3ba3-4e86-aba2-dc6694f213d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameDictionary/testcode.py" afterPath="$PROJECT_DIR$/GameDictionary/testcode.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameDictionary/test1.py" afterPath="$PROJECT_DIR$/GameDictionary/test1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Resources" afterPath="$PROJECT_DIR$/Resources/Resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserInterface.py" afterPath="$PROJECT_DIR$/UserInterface.py" />
     </list>
     <ignored path="w1_mystery_word.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +42,7 @@
             <entry file="file://$PROJECT_DIR$/UserInterface.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#20#0" expanded="true" />
                   </folding>
@@ -49,11 +50,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Resources" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Resources" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Resources/Resources">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.08185539">
+                  <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -81,11 +82,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Assignment" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Assignment" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assignment">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.9938367">
-                  <caret line="33" column="78" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -95,7 +96,7 @@
             <entry file="file://$PROJECT_DIR$/GameDictionary/test1.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+                  <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -120,7 +121,7 @@
           <file leaf-file-name="FileHandler.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/SupportClasses/FileHandler.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.62403697">
+                <state vertical-scroll-proportion="0.55252385">
                   <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="31" selection-end-column="25" />
                   <folding />
                 </state>
@@ -151,11 +152,11 @@
         <option value="$PROJECT_DIR$/mystery_word.py" />
         <option value="$PROJECT_DIR$/SupportClasses/PullDefinition.py" />
         <option value="$PROJECT_DIR$/UserInput.py" />
-        <option value="$PROJECT_DIR$/GameDictionary/test1.py" />
-        <option value="$PROJECT_DIR$/UserInterface.py" />
-        <option value="$PROJECT_DIR$/Resources/Resources" />
         <option value="$PROJECT_DIR$/GameDictionary/testcode.py" />
         <option value="$PROJECT_DIR$/Assignment" />
+        <option value="$PROJECT_DIR$/UserInterface.py" />
+        <option value="$PROJECT_DIR$/GameDictionary/test1.py" />
+        <option value="$PROJECT_DIR$/Resources/Resources" />
       </list>
     </option>
   </component>
@@ -484,8 +485,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.test1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testcode" />
-        <item index="2" class="java.lang.String" itemvalue="Python.UserInterface" />
+        <item index="1" class="java.lang.String" itemvalue="Python.UserInterface" />
+        <item index="2" class="java.lang.String" itemvalue="Python.testcode" />
         <item index="3" class="java.lang.String" itemvalue="Python.PullDefinition" />
         <item index="4" class="java.lang.String" itemvalue="Python.AllThingsPrint" />
       </list>
@@ -514,9 +515,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905138" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24653466" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24653466" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -557,7 +558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SupportClasses/FileHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62403697">
+        <state vertical-scroll-proportion="0.55252385">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="31" selection-end-column="25" />
           <folding />
         </state>
@@ -579,32 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameDictionary/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserInterface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Resources">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GameDictionary/testcode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -617,8 +592,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9938367">
-          <caret line="33" column="78" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserInterface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameDictionary/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Resources">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08185539">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
           <folding />
         </state>
       </provider>

@@ -1,5 +1,7 @@
 import tkinter as tk
 
+LARGE_FONT= ("Verdana", 12)
+
 class SeaofBTCapp(tk.Tk):
 
     def __init__(self, *args, **kwargs):
@@ -14,13 +16,11 @@ class SeaofBTCapp(tk.Tk):
 
         self.frames = {}
 
-        for F in (StartPage, PageOne, PageTwo):
+        frame = StartPage(container, self)
 
-            frame = F(container, self)
+        self.frames[StartPage] = frame
 
-            self.frames[F] = frame
-
-            frame.grid(row=0, column=0, sticky="nsew")
+        frame.grid(row=0, column=0, sticky="nsew")
 
         self.show_frame(StartPage)
 
@@ -28,3 +28,15 @@ class SeaofBTCapp(tk.Tk):
 
         frame = self.frames[cont]
         frame.tkraise()
+
+
+class StartPage(tk.Frame):
+
+    def __init__(self, parent, controller):
+        tk.Frame.__init__(self,parent)
+        label = tk.Label(self, text="Start Page", font=LARGE_FONT)
+        label.pack(pady=10,padx=10)
+
+
+app = SeaofBTCapp()
+app.mainloop()

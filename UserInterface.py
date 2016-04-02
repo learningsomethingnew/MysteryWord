@@ -26,6 +26,10 @@ class UserInterface:
         temp.place(x = a_x, y = a_y)
         return temp
 
+#frame controller to show what we want to show
+    def show_frame(self, a_selected_frame):
+        pass
+
 #fucntion to quit the app
     def quit_app(self):
         exit()
