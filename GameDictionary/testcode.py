@@ -10,7 +10,7 @@ def calculate(*args):
 def delete():
     for grid in root.grid_slaves():
         grid.grid_forget()
-    ttk.Button.
+
 
 root = Tk()
 root.title("Feet to Meters")
