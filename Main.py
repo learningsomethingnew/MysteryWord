@@ -1,0 +1,5 @@
+from SupportClasses.FileHandler import FileHanlder
+
+####SPENT TO MUCH TIME ON TKINTER
+####SO MUCH FRAMEWORK
+####YOU CAN RUN USERINTERFACE AND IT WILL COMPILE

@@ -6,27 +6,26 @@ from os import path
 import os
 
 class FileHanlder:
+
+#importing path to determine if file is there
     def __init__(self):
-        #importing path to determine if file is there
         self._dictionary = "/usr/share/dict/words"
         self._current_dir = os.getcwd()
 
+#Tests to see if file exists. Afterwards, it opens it, reads line by line, and then adds it to a dictionary.
+    def open_file(self):
+        if self.test_if_file_exists(self._dictionary):
+            with open(self._dictionary, 'r') as f:
+                for line in f:
+                    return line
 
-    def open_dictionary():
-        with open('sample1.txt', 'r') as f:
-            for line in f:
-                line = clean_line(line)
-                a_list = split_string(line)
-                a_list = scrub_list_for_empty_entries(a_list)
-                print(a_list)
 
-    def test_if_file_exists(self, a_file_location):
-        return path.isfile(a_file_location)
+    def test_if_file_exists(self, a_file):
+        return path.isfile(a_file)
 
     def create_file_if_none_exists(self, a_directory):
         pass
+
 #Runs tests on the functions to make sure that they work
 if __name__ == '__main__':
     f = FileHanlder()
-    print(f.test_if_file_exists("/usr/share/dict/words"))
-    print(f._current_dir)

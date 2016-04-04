@@ -31,9 +31,7 @@ class GameLevel(tk.Frame):
         w = tk.Canvas(self, width=600, height=400, bg= 'black')
         w.grid(row = 0, column = 1, stick = 'w')
 
-        d1 = draw_line((20,100,40,120), 'white')
-        d1.draw(w)
-        #w.create_line(0,100,0,120, fill = 'white')
+
 
 
 
