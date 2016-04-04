@@ -1,53 +1,41 @@
 import tkinter as tk
 from tkinter import ttk
-
-class UserInterface:
-    def __init__(self):
-        self.window = tk.Tk()
-        self.init_window()
+import GameLevels.MenuLevel
+import GameLevels.GameLevel
 
 
+class UserInterface(tk.Tk):
 
-#generic function to change the background color
-    def set_bgc(self, a_color):
-        self.window.configure(background = a_color)
+#framework for controlling screens
+    def __init__(self, *args, **kwargs):
+        tk.Tk.__init__(self, *args, **kwargs)
+        container = tk.Frame(self)
 
-#generic function to change the window size
-    def set_window_size(self, a_size):
-        self.window.geometry(a_size)
+        container.pack(side="top", fill = "both", expand = True)
 
-#generic function to change the window title
-    def set_window_title(self, a_string):
-        self.window.title(a_string)
+        container.grid_rowconfigure(0, weight = 1)
+        container.grid_columnconfigure(0 , weight = 1)
 
-#generic function to create a button
-    def create_button(self, a_name_for_button, a_x, a_y, a_command, a_button_state):
-        temp = tk.Button(text = a_name_for_button,command = a_command, state=a_button_state)
-        temp.place(x = a_x, y = a_y)
-        return temp
+        self.frames = {}
 
-#frame controller to show what we want to show
-    def show_frame(self, a_selected_frame):
-        pass
+        for level in (GameLevels.MenuLevel.MenuLevel, GameLevels.GameLevel.GameLevel):
+            frame = level(container, self)
+            self.frames[level] = frame
+            frame.grid(row=0, column=0, sticky="nsew")
 
-#fucntion to quit the app
-    def quit_app(self):
-        exit()
+        self.show_frame(GameLevels.MenuLevel.MenuLevel)
 
-#init the window settings
-    def init_window(self):
-        #sets the title
-        self.set_window_title("TIY Hangman Edition")
-        #sets the window size
-        self.set_window_size("800x600")
-        #sets the background color
-        self.set_bgc('black')
+#Shows the frame that we want. a_controller is the key to the value in our dictionary that is our frame
+    def show_frame(self, a_controller):
+        frame = self.frames[a_controller]
+        frame.tkraise()
 
-#main loop for controlling the gui
-    def draw_main_window(self):
-        self.window.mainloop()
+#changes the title of the screen to match what the player is on
+    def change_title(self, a_string):
+        tk.Tk.wm_title(self,a_string)
 
-if __name__ == '__main__':
-    f = UserInterface()
-    f.create_button("Test Button", 0, 10, f.quit_app, "disabled")
-    f.draw_main_window()
+
+
+app = UserInterface()
+app.mainloop()
+
